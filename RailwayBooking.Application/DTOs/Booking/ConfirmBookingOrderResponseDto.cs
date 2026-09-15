@@ -1,0 +1,14 @@
+using System;
+
+namespace RailwayBooking.Application.DTOs.Booking
+{
+    public class ConfirmBookingOrderResponseDto
+    {
+        public long OrderId { get; set; }
+        public string OrderCode { get; set; }
+        public string Status { get; set; }
+        public DateTime? ConfirmedAt { get; set; }
+        public decimal TotalAmount { get; set; }
+        public string Currency { get; set; }
+    }
+}
